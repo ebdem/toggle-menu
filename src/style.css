@@ -1,0 +1,44 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: margin 0.5s;
+  margin: 0 0 0 -250px;
+}
+
+.wrapper .is-nav-open {
+  transition: margin-left 0.5s;
+  margin-left: 0;
+}
+
+.is-nav-open {
+  transition: margin-left 0.5s;
+  margin-left: 0;
+}
+
+.nav {
+  position: relative;
+  width: 250px;
+  height: 100%;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+
+.nav__icon {
+  position: absolute;
+  top: 0;
+  right: -60px;
+  padding: 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.nav__icon:hover {
+  color: #5eb2ff;
+}
